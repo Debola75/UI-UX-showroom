@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Showroom - Modern UI/UX Demo</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Demo.css">
+    <link rel="shortcut icon" href="./favicon-32x32.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="logo">Showroom</div>
+        <nav>
+            <a href="#features">Features</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section class="hero">
+        <h1>Experience Modern UI/UX</h1>
+        <p>
+            Discover a showcase of top-tier design, smooth animations, and responsive layouts. Crafted for inspiration and performance.
+        </p>
+        <button class="cta-btn" onclick="scrollToFeatures()">Explore Features</button>
+    </section>
+    <section class="features" id="features">
+        <div class="feature-card">
+            <div class="feature-icon">✨</div>
+            <div class="feature-title">Stunning Animations</div>
+            <div class="feature-desc">Enjoy smooth transitions and interactive effects for an engaging user experience.</div>
+        </div>
+        <div class="feature-card">
+            <div class="feature-icon">📱</div>
+            <div class="feature-title">Fully Responsive</div>
+            <div class="feature-desc">Looks great on any device, from desktop to mobile, with adaptive layouts and touch-friendly controls.</div>
+        </div>
+        <div class="feature-card">
+            <div class="feature-icon">⚡</div>
+            <div class="feature-title">Fast & Lightweight</div>
+            <div class="feature-desc">Optimized for speed and performance, ensuring quick load times and smooth navigation.</div>
+        </div>
+    </section>
+    <section id="about" style="max-width:700px;margin:0 auto 4rem auto;text-align:center;">
+        <h2 style="font-size:2rem;margin-bottom:1rem;">About Showroom</h2>
+        <p style="font-size:1.1rem;color:#444;">
+            Showroom is a demo site built to inspire designers and developers with modern UI/UX techniques. It features clean layouts, beautiful color schemes, and interactive elements—all using only HTML, CSS, and JavaScript.
+        </p>
+    </section>
+    <section id="contact" style="max-width:700px;margin:0 auto 4rem auto;text-align:center;">
+        <h2 style="font-size:2rem;margin-bottom:1rem;">Contact</h2>
+        <form id="contactForm" style="display:flex;flex-direction:column;gap:1rem;align-items:center;">
+            <input type="text" placeholder="Your Name" required style="padding:0.8rem 1rem;border-radius:8px;border:1px solid #ccc;width:100%;max-width:350px;">
+            <input type="email" placeholder="Your Email" required style="padding:0.8rem 1rem;border-radius:8px;border:1px solid #ccc;width:100%;max-width:350px;">
+            <textarea placeholder="Your Message" required rows="4" style="padding:0.8rem 1rem;border-radius:8px;border:1px solid #ccc;width:100%;max-width:350px;"></textarea>
+            <button type="submit" class="cta-btn" style="width:100%;max-width:350px;">Send Message</button>
+        </form>
+        <div id="formMsg" style="margin-top:1rem;color:var(--accent);font-weight:600;"></div>
+    </section>
+    <footer>
+        &copy; 2025 Showroom. Crafted for UI/UX inspiration, Design by Mastermind
+    </footer>
+    <script src="./Demo.js"></script>
+</body>
+</html></form></p>
